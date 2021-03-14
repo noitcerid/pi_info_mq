@@ -1,11 +1,7 @@
 import pika
 import sys
 import os
-
-# Configuration (TODO: Move to global settings file)
-mq_server = 'raspberrypi4-4.local'
-queue_name = 'hello'
-exchange = ''
+from config import mq_server, queue_name, exchange
 
 
 def main():

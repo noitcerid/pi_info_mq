@@ -3,11 +3,7 @@ import os
 import psutil
 import socket
 import platform
-
-# Configuration (TODO: Move to global settings file)
-mq_server = 'raspberrypi4-4.local'
-queue_name = 'hello'
-exchange = ''
+from config import mq_server, queue_name, exchange
 
 # Standard connection setup
 connection = pika.BlockingConnection(pika.ConnectionParameters(mq_server))
