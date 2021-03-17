@@ -131,3 +131,4 @@ config.py
 
 # Pycharm ignores
 .idea/
+config.py
