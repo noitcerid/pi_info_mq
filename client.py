@@ -104,7 +104,7 @@ def gather_info():
         "timestamp": current_timestamp,
         "hostname": get_host_name(),
         "os": get_os(),
-        "ip_address": get_ip_address('wlp0s20f3'),
+        "ip_address": get_ip_address('eth0'),
         "cpu_usage_percent": get_cpu_usage_percent(),
         "cpu_frequency": get_cpu_frequency(),
         "cpu_temperature": get_cpu_temp(),
